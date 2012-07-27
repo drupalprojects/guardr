@@ -24,6 +24,9 @@ projects[cck][version] = 2.9
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.3
 
+projects[diskfree][subdir] = contrib
+projects[diskfree][version] = 1.1
+
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.5
 
