@@ -71,6 +71,9 @@ projects[session_expire][subdir] = contrib
 
 projects[session_limit][subdir] = contrib
 
+projects[settings_audit_log] = contrib
+projects[settings_audit_log] = 1.0
+
 projects[user_readonly][subdir] = contrib
 
 projects[username_enumeration_prevention][subdir] = contrib
