@@ -51,6 +51,9 @@ projects[login_security][version] = 1.x-dev
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.1
 
+projects[password_change][subdir] = contrib
+projects[password_change][version] = 1.1
+
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.x-dev
 
