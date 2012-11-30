@@ -5,6 +5,7 @@ api = 2
 ; Drupal core
 ; ------------------
 projects[drupal][type] = core
+projects[drupal][patch][] = http://drupal.org/files/D6-ssl2.patch
 ;projects[drupal][download][type] = git
 ;projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
 ;projects[drupal][download][branch] = 6.x
