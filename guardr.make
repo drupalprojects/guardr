@@ -22,6 +22,8 @@ projects[bad_judgement][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.9
 
+projects[clear_password_field] = contrib
+
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.3
 
