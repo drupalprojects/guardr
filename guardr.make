@@ -69,6 +69,8 @@ projects[role_watchdog][subdir] = contrib
 
 projects[securesite][subdir] = contrib
 
+projects[security_review][subdir] = contrib
+
 projects[semiclean][subdir] = contrib
 
 projects[session_expire][subdir] = contrib
