@@ -12,12 +12,12 @@ core = 6.x
 ; Settings
 users[admin][uid] = 1
 users[admin][name] = admin
-users[admin][mail] = is@cgraphics.com
+users[admin][mail] = admin@example.com
 users[admin][roles] = administrator
 users[admin][status] = 1
 
 variables[site_name] = Guardr Distribution
-variables[site_mail] = is@cgraphics.com
+variables[site_mail] = admin@example.com
 variables[date_default_timezone] = -18000
 variables[date_default_timezone_name] = America/New_York
 variables[date_format_long] = l, F j, Y - g:ia
