@@ -7,9 +7,9 @@ Drupal distribution with common modules for enhancing web applicaiton security.
 * Checkout guardr.git locally
 * Run the following:
 <code>
-	drush make <path-to-moxart>/guardr.make <path-to-make-results>
+	drush make <path-to-guardr>/guardr.make <path-to-make-results>
 </code>
 
 * TODO - add info on using drush site-install
 
-drush site-install guardr --db-url=mysqli://root:root@127.0.0.1/guardr --account-name=admin --account-pass=admin --account-mail=is@knowclassic.com --site-name=guardr
+drush site-install guardr --db-url=mysqli://root:root@127.0.0.1/guardr --account-name=admin --account-pass=admin --account-mail=admin@example.com --site-name=guardr
