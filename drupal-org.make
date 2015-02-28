@@ -107,7 +107,7 @@ projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[user_registrationpassword][subdir] = contrib
 projects[user_registrationpassword][version] = 1.3

@@ -18,4 +18,4 @@ includes[] = drupal-org-core.make
 projects[guardr][type] = profile
 projects[guardr][download][type] = git
 projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
-projects[guardr][download][tag] = 7.x-2.7
+projects[guardr][download][tag] = 7.x-2.8
