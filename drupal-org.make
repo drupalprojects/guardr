@@ -79,6 +79,7 @@ projects[r4032login][version] = 1.8
 
 projects[realname][subdir] = contrib
 projects[realname][version] = 1.2
+projects[realname][patch][] = https://www.drupal.org/files/issues/realname_autocomplete_views-2261665-9.patch
 
 projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4

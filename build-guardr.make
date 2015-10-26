@@ -12,10 +12,9 @@ core = 7.x
 ; -----------
 includes[] = drupal-org-core.make
 
-
 ; Install profiles
 ; ----------------
 projects[guardr][type] = profile
 projects[guardr][download][type] = git
 projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
-projects[guardr][download][tag] = 7.x-2.21
+projects[guardr][download][tag] = 7.x-2.22
