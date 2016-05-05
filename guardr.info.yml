@@ -4,10 +4,13 @@ description: 'Build a custom site without pre-configured functionality. Suitable
 version: VERSION
 core: 8.x
 dependencies:
+# Core
   - node
   - block
   - dblog
   - page_cache
   - dynamic_page_cache
+# Contrib
+  - password_policy
 themes:
   - stark
