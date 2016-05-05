@@ -1,6 +1,6 @@
 name: Guardr
 type: profile
-description: 'Build a custom site without pre-configured functionality. Suitable for advanced users.'
+description: 'Drupal distribution for enhanced security of web applications through contributed modules.'
 version: VERSION
 core: 8.x
 dependencies:
