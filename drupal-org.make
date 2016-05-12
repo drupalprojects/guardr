@@ -118,6 +118,9 @@ projects[session_limit][version] = 2.2
 projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.2
 
+projects[tfa][subdir] = contrib
+projects[tfa][version] = 2.0-beta3
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
