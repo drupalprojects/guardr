@@ -121,6 +121,9 @@ projects[settings_audit_log][version] = 1.2
 projects[tfa][subdir] = contrib
 projects[tfa][version] = 2.0-beta3
 
+projects[tfa_basic][subdir] = contrib
+projects[tfa_basic][subdir] = 1.0-beta2
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
