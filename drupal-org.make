@@ -10,6 +10,9 @@ projects[autologout][version] = 4.4
 projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.9
+
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
