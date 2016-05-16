@@ -19,6 +19,9 @@ projects[diff][version] = 3.2
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.3
 
+projects[duo][subdir] = contrib
+projects[due][version] = 1.9
+
 projects[ejectorseat][subdir] = contrib
 projects[ejectorseat][version] = 1.0
 projects[ejectorseat][patch][] = https://www.drupal.org/files/issues/ejectorseat-register-autologout-2226873-2.patch
