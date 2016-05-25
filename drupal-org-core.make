@@ -9,7 +9,7 @@ projects[drupal][version] = 7.43
 projects[drupal][patch][] = https://www.drupal.org/files/issues/guardr-settings-for-mysql-pdo-tls-1824946-11.patch
 ; Removes CHANGELOG.txt in the root directory.
 ; https://www.drupal.org/node/1878172
-projects[drupal][patch][] = https://www.drupal.org/files/issues/guardr-remove-changelog-txt-1878172-58.patch
+projects[drupal][patch][] = https://www.drupal.org/files/issues/guardr-remove-changelog-txt-1878172-62.patch 
 ; Expire cookies when the browser closes and set
 ; garbage collection on sessions at 12 hrs instead of 2.3 days
 ; https://www.drupal.org/node/2234751
