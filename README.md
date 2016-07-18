@@ -4,7 +4,7 @@ Drupal distribution with common modules for enhancing web application security.
 
 ## Use Guardr as the base for a new Drupal project
 
-Download [Guardr 7.x-2.33(http://ftp.drupal.org/files/projects/guardr-7.x-2.33-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
+Download [Guardr 7.x-2.34(http://ftp.drupal.org/files/projects/guardr-7.x-2.34-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
 
 Install Drupal using the Guardr codebase as you would normally, but make sure to select the Guardr profile during the installation process.
 
