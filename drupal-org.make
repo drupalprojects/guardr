@@ -52,6 +52,9 @@ projects[hide_php_fatal_error][version] = 1.0
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.3
+; Patch libraries.module to support PHP 7.
+; http://www.drupal.org/node/2779591.
+projects[libraries][patch][] = http://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch
 
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta3
