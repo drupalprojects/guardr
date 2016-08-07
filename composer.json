@@ -23,7 +23,19 @@
         "drush/drush": "~8.0",
         "drupal/console": "~0.10",
         "drupal/guardr": "8.1.x-dev",
-        "drupal/password_policy": "8.3.0-alpha2"
+        "drupal/autologout": "8.1.0-rc2",
+        "drupal/diff": "8.1.0-alpha3",
+        "drupal/libraries": "8.3.x-dev",
+        "drupal/login_history": "8.1.0",
+        "drupal/login_security": "8.1.1",
+        "drupal/password_policy": "8.3.0-alpha2",
+        "drupal/r4032login": "8.1.x-dev",
+        "drupal/seckit": "8.1.0-alpha1",
+        "drupal/security_review": "8.1.x-dev",
+        "drupal/session_limit": "8.1.0-beta1",
+        "drupal/token": "8.1.0-alpha2",
+        "drupal/username_enumeration_prevention": "8.1.0-beta1",
+        "drupal/x_originating_ip": "8.1.0"
     },
     "require-dev": {
         "behat/mink": "~1.6",
