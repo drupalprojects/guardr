@@ -1212,7 +1212,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "942cf4f469071174b6534ba0e5151bfa97df3d5e"
+                "reference": "749fec67da01608b2dd8edfda055a2242fa0281b"
             },
             "require": {
                 "composer/installers": "^1.0.20",
@@ -1315,7 +1315,7 @@
             ],
             "description": "Drupal distribution for enhanced security of web applications through contributed modules.",
             "homepage": "https://www.drupal.org/project/guardr",
-            "time": "2016-08-25 15:07:34"
+            "time": "2016-08-29 02:16:34"
         },
         {
             "name": "drupal/libraries",
