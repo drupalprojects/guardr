@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d20fea8edebded9b11d142f1f2db060",
-    "content-hash": "34c6fa7e2a77643a3d56934fa8db9550",
+    "hash": "a314209e5b7ab3b5efe903473bff103f",
+    "content-hash": "e0280fc23654d0c8488bdd3f0ae9bfed",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -858,7 +858,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/autologout-8.x-1.0-rc2.zip",
-                "reference": null,
+                "reference": "c55fbbeba28abba32df86b79c97e7c81dbd22a2f",
                 "shasum": null
             },
             "require": {
@@ -1146,7 +1146,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha27.zip",
-                "reference": null,
+                "reference": "231e2649678d58901368a9e5681f36865ce84e73",
                 "shasum": null
             },
             "require": {
@@ -1186,7 +1186,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.0-alpha3.zip",
-                "reference": null,
+                "reference": "ffa5ec853cf277b519f157777ac2b89059eec905",
                 "shasum": null
             },
             "require": {
@@ -1318,6 +1318,31 @@
             "time": "2016-08-29 02:16:34"
         },
         {
+            "name": "drupal/guardr_core",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/guardr_core",
+                "reference": "d299da35b001b69e0b96a9ade3422bbe6bb705f5"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Custom configuration related to the Guardr distribution.",
+            "homepage": "https://www.drupal.org/project/guardr_core",
+            "time": "2016-08-29 14:38:59"
+        },
+        {
             "name": "drupal/libraries",
             "version": "dev-8.x-3.x",
             "source": {
@@ -1353,7 +1378,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/login_history-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "e0cefa99bf8612dd8aa79a3fe51c12acbefd05fc",
                 "shasum": null
             },
             "require": {
@@ -1384,7 +1409,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/login_security-8.x-1.1.zip",
-                "reference": null,
+                "reference": "e5de6bdcae93c4f86b2ad3ee1ae4dda7bb7e3e65",
                 "shasum": null
             },
             "require": {
@@ -1416,7 +1441,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/password_policy-8.x-3.0-alpha2.zip",
-                "reference": null,
+                "reference": "948c352eb45417913d01a64f8daa60f4efb5d08f",
                 "shasum": null
             },
             "require": {
@@ -1482,7 +1507,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/seckit-8.x-1.0-alpha1.zip",
-                "reference": null,
+                "reference": "47f864164a082bd7422dd5746c193b43544594b1",
                 "shasum": null
             },
             "require": {
@@ -1538,7 +1563,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/session_limit-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "ce2eaeac70253a4b69b4cc0f1f3a8445236beeec",
                 "shasum": null
             },
             "require": {
@@ -1569,7 +1594,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-alpha2.zip",
-                "reference": null,
+                "reference": "918d0d5e8e8ee7f446d3e068cb6aa2d7c61ee625",
                 "shasum": null
             },
             "require": {
@@ -1600,7 +1625,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "05d0aceb217d1577f542f9fd04dc062ade1e0a18",
                 "shasum": null
             },
             "require": {
@@ -1631,7 +1656,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/x_originating_ip-8.x-1.0.zip",
-                "reference": null,
+                "reference": "321d8567e5341cf3627001545f4b64210217ca63",
                 "shasum": null
             },
             "require": {
