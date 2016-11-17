@@ -11,7 +11,7 @@ projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.11
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -20,14 +20,14 @@ projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.3
 
 projects[duo][subdir] = contrib
-projects[duo][version] = 1.9
+projects[duo][version] = 1.10
 
 projects[ejectorseat][subdir] = contrib
 projects[ejectorseat][version] = 1.0
 projects[ejectorseat][patch][] = https://www.drupal.org/files/issues/ejectorseat-register-autologout-2226873-2.patch
 
 projects[email_confirm][subdir] = contrib
-projects[email_confirm][version] = 1.2
+projects[email_confirm][version] = 1.3
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 2.3
@@ -36,7 +36,7 @@ projects[entitycache][subdir] = contrib
 projects[entitycache][version] = 1.5
 
 projects[field_permissions][subdir] = contrib
-projects[field_permissions][version] = 1.0-beta2
+projects[field_permissions][version] = 1.0
 
 projects[flood_control][subdir] = contrib
 projects[flood_control][version] = 1.0
@@ -45,7 +45,7 @@ projects[guardr_core][subdir] = contrib
 projects[guardr_core][version] = 1.1
 
 projects[hacked][subdir] = contrib
-projects[hacked][version] = 2.0-beta5
+projects[hacked][version] = 2.0-beta6
 
 projects[hide_php_fatal_error][subdir] = contrib
 projects[hide_php_fatal_error][version] = 1.0
@@ -57,7 +57,7 @@ projects[libraries][version] = 2.3
 projects[libraries][patch][] = http://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch
 
 projects[login_history][subdir] = contrib
-projects[login_history][version] = 1.0-beta3
+projects[login_history][version] = 1.0
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.9
@@ -75,7 +75,7 @@ projects[no_autocomplete][subdir] = contrib
 projects[no_autocomplete][version] = 1.1
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.5
+projects[paranoia][version] = 1.6
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.12
@@ -131,7 +131,7 @@ projects[tfa][subdir] = contrib
 projects[tfa][version] = 2.0
 
 projects[tfa_basic][subdir] = contrib
-projects[tfa_basic][version] = 1.0-beta3
+projects[tfa_basic][version] = 1.0
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
