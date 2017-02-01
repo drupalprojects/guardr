@@ -8,8 +8,7 @@ projects[guardr_core][type] = module
 projects[guardr_core][subdir] = contrib
 projects[guardr_core][download][type] = git
 projects[guardr_core][download][url] = git://git.drupal.org/project/guardr_core.git
-projects[guardr_core][branch] = 7.x-3.x
-projects[guardr_core][revision] = b0822c77178dde9a92f6c03cc211ec05a5ddf757
+projects[guardr_core][download][branch] = 7.x-3.x
 
 
 ; Libraries
