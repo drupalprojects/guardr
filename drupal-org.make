@@ -5,7 +5,7 @@ core = 7.x
 ; Modules
 ; -------
 projects[guardr_core][subdir] = contrib
-projects[guardr_core][branch] = 3.x
+projects[guardr_core][branch] = 7.x-3.x
 
 
 ; Libraries

@@ -17,4 +17,4 @@ includes[] = drupal-org-core.make
 projects[guardr][type] = profile
 projects[guardr][download][type] = git
 projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
-projects[guardr][download][tag] = 7.x-2.36
+projects[guardr][download][branch] = 7.x-3.x
