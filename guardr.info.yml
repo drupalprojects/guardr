@@ -46,7 +46,7 @@ dependencies:
   - seckit
   - session_limit
   - username_enumaration_prevention
-  - x_orginiating_ip
+  - x_originating_ip
 themes:
   - bartik
   - seven
