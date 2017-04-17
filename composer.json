@@ -1,12 +1,14 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
-    "type": "project",
+    "name": "guardrdistro/guardr",
+    "description": "Project template for Drupal 8 sites built with the Guardr distribution.",
+    "type": "drupal-profile",
     "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Mark Shrophire",
+            "role": "mdshrops@shropnet.net"
         }
     ],
     "repositories": [
@@ -15,17 +17,24 @@
             "url": "https://packages.drupal.org/8"
         }
     ],
+   "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
+        }
+    },
     "require": {
-        "composer/installers": "^1.0.20",
-        "cweagans/composer-patches": "~1.0",
-        "drupal-composer/drupal-scaffold": "^2.0.1",
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/autologout": "1.0.0-rc2",
         "drupal/console": "~0.10",
-        "drupal/core": "8.2.7",
+        "drupal/core": "~8.0",
         "drupal/diff": "1.0.0-rc1",
         "drupal/guardr": "1.x-dev",
-        "drupal/guardr_core": "1.x-dev",
-        "drupal/libraries": "3.x-dev",
         "drupal/login_history": "1.0.0",
         "drupal/login_security": "1.2.0",
         "drupal/password_policy": "3.0.0-alpha3",
@@ -37,44 +46,5 @@
         "drupal/username_enumeration_prevention": "1.0-beta1",
         "drupal/x_originating_ip": "1.0",
         "drush/drush": "~8.0"
-    },
-    "require-dev": {
-        "behat/mink": "~1.6",
-        "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "^1.1@dev",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "2.7.*"
-    },
-    "conflict": {
-        "drupal/drupal": "*"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ]
-    },
-    "scripts": {
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::buildScaffold",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::buildScaffold",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
-    },
-    "extra": {
-        "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
-        }
     }
 }

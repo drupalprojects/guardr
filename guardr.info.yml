@@ -38,6 +38,15 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  - autologout
+  - diff
+  - login_history
+  - login_security
+  - password_policy
+  - seckit
+  - session_limit
+  - username_enumaration_prevention
+  - x_orginiating_ip
 themes:
   - bartik
   - seven
