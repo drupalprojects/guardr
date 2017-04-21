@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2867a4d8cc1325fca11494bd6b5b1abe",
+    "content-hash": "e6f72dcd9a2c5bb47b26a4aa5a17a22f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1133,16 +1133,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.3.0",
+            "version": "8.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "e503a252ec5c2811abed6af0c7b70afda8e93a3f"
+                "reference": "53326f9503e5e9e406fab22e4fbae6ddb706f7be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/e503a252ec5c2811abed6af0c7b70afda8e93a3f",
-                "reference": "e503a252ec5c2811abed6af0c7b70afda8e93a3f",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/53326f9503e5e9e406fab22e4fbae6ddb706f7be",
+                "reference": "53326f9503e5e9e406fab22e4fbae6ddb706f7be",
                 "shasum": ""
             },
             "require": {
@@ -1311,21 +1311,21 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-04-06T00:12:44+00:00"
+            "time": "2017-04-19T16:07:22+00:00"
         },
         {
             "name": "drupal/ctools",
-            "version": "3.0.0-beta1",
+            "version": "3.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ctools",
-                "reference": "8.x-3.0-beta1"
+                "reference": "8.x-3.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-beta1.zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-beta2.zip",
                 "reference": null,
-                "shasum": "8798ba7640a9188df9f9043e6f49b5ff0252e3dc"
+                "shasum": "6deece503cca328dde9b573a5d8a8fc74798d284"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1336,8 +1336,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-beta1",
-                    "datestamp": "1490677984"
+                    "version": "8.x-3.0-beta2",
+                    "datestamp": "1492545842"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "c637ff9c4441d0bdb52ea61d35e528da9d9682fa"
+                "reference": "accfc02e5a89a7fc9f2eb2cf2624a9c172475004"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492400644"
+                    "datestamp": "1492484344"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,69 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-17 03:44:48"
+            "time": "2017-04-21 01:14:02"
+        },
+        {
+            "name": "drupal/guardr_core",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/guardr_core",
+                "reference": "d299da35b001b69e0b96a9ade3422bbe6bb705f5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1472481839"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bdone",
+                    "homepage": "https://www.drupal.org/user/687670"
+                },
+                {
+                    "name": "deekayen",
+                    "homepage": "https://www.drupal.org/user/972"
+                },
+                {
+                    "name": "deetergp",
+                    "homepage": "https://www.drupal.org/user/1134002"
+                },
+                {
+                    "name": "mikebarkas",
+                    "homepage": "https://www.drupal.org/user/1982966"
+                },
+                {
+                    "name": "shrop",
+                    "homepage": "https://www.drupal.org/user/14767"
+                },
+                {
+                    "name": "sjpatrick",
+                    "homepage": "https://www.drupal.org/user/114741"
+                },
+                {
+                    "name": "tecto",
+                    "homepage": "https://www.drupal.org/user/54020"
+                }
+            ],
+            "description": "Custom configuration related to the Guardr distribution.",
+            "homepage": "https://www.drupal.org/project/guardr_core",
+            "support": {
+                "source": "http://cgit.drupalcode.org/guardr_core"
+            },
+            "time": "2016-08-29 14:38:59"
         },
         {
             "name": "drupal/login_history",
@@ -2062,69 +2124,6 @@
             "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
             "support": {
                 "source": "http://cgit.drupalcode.org/username_enumeration_prevention"
-            }
-        },
-        {
-            "name": "drupal/x_originating_ip",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/x_originating_ip",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/x_originating_ip-8.x-1.0.zip",
-                "reference": null,
-                "shasum": "0929858dcf5e7c2672c55607a567a4f59ecee54d"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1415222280"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "bdone",
-                    "homepage": "https://www.drupal.org/user/687670"
-                },
-                {
-                    "name": "cYu",
-                    "homepage": "https://www.drupal.org/user/202205"
-                },
-                {
-                    "name": "deekayen",
-                    "homepage": "https://www.drupal.org/user/972"
-                },
-                {
-                    "name": "deetergp",
-                    "homepage": "https://www.drupal.org/user/1134002"
-                },
-                {
-                    "name": "shrop",
-                    "homepage": "https://www.drupal.org/user/14767"
-                },
-                {
-                    "name": "tlattimore",
-                    "homepage": "https://www.drupal.org/user/624754"
-                }
-            ],
-            "description": "Add the client IP address to outgoing email using the X-Originating-IP header to assist in investigating spam and unsolicited bulk email.",
-            "homepage": "https://www.drupal.org/project/x_originating_ip",
-            "support": {
-                "source": "http://cgit.drupalcode.org/x_originating_ip"
             }
         },
         {
@@ -5099,16 +5098,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.33.0",
+            "version": "v1.33.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a"
+                "reference": "dd6ca96227917e1e85b41c7c3cc6507b411e0927"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a",
-                "reference": "05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/dd6ca96227917e1e85b41c7c3cc6507b411e0927",
+                "reference": "dd6ca96227917e1e85b41c7c3cc6507b411e0927",
                 "shasum": ""
             },
             "require": {
@@ -5157,7 +5156,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-03-22T15:40:09+00:00"
+            "time": "2017-04-20T17:39:48+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -5463,6 +5462,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/guardr": 20,
+        "drupal/guardr_core": 20,
         "drupal/r4032login": 20,
         "drupal/security_review": 20
     },

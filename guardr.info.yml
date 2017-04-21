@@ -46,7 +46,6 @@ dependencies:
   - password_policy
   - seckit
   - session_limit
-  - x_originating_ip
 themes:
   - bartik
   - seven
