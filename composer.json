@@ -27,7 +27,7 @@
         },
         "patches": {
             "drupal/username_enumeration_prevention": {
-                "Fix hook_requirements error on install": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime--2871931-3.patch"
+                "Resolves hook_requirements issues": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
             }
         }
     },

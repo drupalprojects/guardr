@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5994ec22b95d9afac866049101c92869",
+    "content-hash": "258488ade18bc121b7aee1b9e22daa95",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "36627565f28ca7d0c5cac5b1f5a98521a4555906"
+                "reference": "19e221f58973d8eb3c6f5c06b9b4adff311fd737"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492787944"
+                    "datestamp": "1492823888"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-22 01:16:22"
+            "time": "2017-04-22 01:22:43"
         },
         {
             "name": "drupal/guardr_core",
@@ -2098,7 +2098,7 @@
                     "datestamp": "1466633339"
                 },
                 "patches_applied": {
-                    "Fix hook_requirements error on install": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime--2871931-3.patch"
+                    "Resolves hook_requirements issues": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
