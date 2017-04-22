@@ -41,6 +41,7 @@ dependencies:
   - autologout
   - diff
   - ban
+  - guardr_core
   - login_history
   - login_security
   - password_policy
