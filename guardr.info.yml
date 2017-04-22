@@ -46,6 +46,7 @@ dependencies:
   - password_policy
   - seckit
   - session_limit
+  - username_enumberation_prevention
 themes:
   - bartik
   - seven

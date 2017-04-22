@@ -24,6 +24,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/username_enumeration_prevention": {
+                "Fix hook_requirements error on install": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime--2871931-3.patch"
+            }
         }
     },
     "require": {
