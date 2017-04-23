@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "258488ade18bc121b7aee1b9e22daa95",
+    "content-hash": "fbfd448951f86586c4abb0c70ff51c1e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "32b534d31e880d2b7d1bbd449aa4c913f670cd1a"
+                "reference": "89d19e6baa36e0a5ae0cb7a83669f70f1750cf2e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492913947"
+                    "datestamp": "1492954742"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-23 13:29:20"
+            "time": "2017-04-23 20:45:24"
         },
         {
             "name": "drupal/guardr_core",
@@ -1731,6 +1731,81 @@
             "homepage": "https://www.drupal.org/project/login_security",
             "support": {
                 "source": "http://cgit.drupalcode.org/login_security"
+            }
+        },
+        {
+            "name": "drupal/mass_pwreset",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/mass_pwreset",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mass_pwreset-8.x-1.0-alpha4.zip",
+                "reference": null,
+                "shasum": "ae3f5ed58dcdf26b63519a6fc877ebd2e2ddf40b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1487968083"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bdone",
+                    "homepage": "https://www.drupal.org/user/687670"
+                },
+                {
+                    "name": "cyu-dupe",
+                    "homepage": "https://www.drupal.org/user/786422"
+                },
+                {
+                    "name": "deekayen",
+                    "homepage": "https://www.drupal.org/user/972"
+                },
+                {
+                    "name": "deetergp",
+                    "homepage": "https://www.drupal.org/user/1134002"
+                },
+                {
+                    "name": "mikebarkas",
+                    "homepage": "https://www.drupal.org/user/1982966"
+                },
+                {
+                    "name": "shrop",
+                    "homepage": "https://www.drupal.org/user/14767"
+                },
+                {
+                    "name": "sjpatrick",
+                    "homepage": "https://www.drupal.org/user/114741"
+                },
+                {
+                    "name": "tecto",
+                    "homepage": "https://www.drupal.org/user/54020"
+                },
+                {
+                    "name": "tlattimore",
+                    "homepage": "https://www.drupal.org/user/624754"
+                }
+            ],
+            "description": "Reset all user accounts!",
+            "homepage": "https://www.drupal.org/project/mass_pwreset",
+            "support": {
+                "source": "http://cgit.drupalcode.org/mass_pwreset"
             }
         },
         {
