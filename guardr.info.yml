@@ -3,7 +3,9 @@ type: profile
 description: 'Drupal distribution for enhanced security of web applications through contributed modules.'
 core: 8.x
 dependencies:
+#
 # Core modules to install.
+#
   - node
   - history
   - block
@@ -38,16 +40,22 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
-  - autologout
-  - diff
   - ban
   - update
+#
 # Contibuted modules to install.
+#
+# PCI v3.0 requires 15 minute session timeout.
+  - autologout
+  - diff
   - guardr_core
   - login_history
   - login_security
+# PCI v3.0 requires 90 day password expiration
+# and 7 character minimum containing alphabetic and numeric.
   - password_policy
   - seckit
+# Shared accounts are not permitted by PCI v3.0.
   - session_limit
   - username_enumeration_prevention
 themes:
