@@ -41,6 +41,7 @@ dependencies:
   - autologout
   - diff
   - ban
+  - update
 # Contibuted modules to install.
   - guardr_core
   - login_history

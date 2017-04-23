@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "64f4879e2cfb6d28f9e8c6d6022a119edc4ade07"
+                "reference": "f8932e9ef0d6fdfe85baefb6780c7821b73bf2a6"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492906442"
+                    "datestamp": "1492913346"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-23 01:07:12"
+            "time": "2017-04-23 02:15:30"
         },
         {
             "name": "drupal/guardr_core",
@@ -1559,7 +1559,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr_core",
-                "reference": "b0bda8cb8bf8bd34cad399092f6a8920d4b111b6"
+                "reference": "4fc2b714f026e608ed9e24a7e6258a82945af0ea"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1571,7 +1571,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492906142"
+                    "datestamp": "1492950242"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1617,7 +1617,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr_core"
             },
-            "time": "2017-04-23 01:08:12"
+            "time": "2017-04-23 13:11:53"
         },
         {
             "name": "drupal/login_history",
