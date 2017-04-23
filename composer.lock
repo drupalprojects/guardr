@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "351700a886e8e6ff7de0637d4eb55323e59be8ef"
+                "reference": "46982097abc9d29398aaef12bd0d2133aeb8261f"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492871042"
+                    "datestamp": "1492902542"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-22 23:05:01"
+            "time": "2017-04-23 00:11:50"
         },
         {
             "name": "drupal/guardr_core",
