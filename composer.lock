@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "07852149cb65ec885c573ca7e838e6c68aa75a64"
+                "reference": "351700a886e8e6ff7de0637d4eb55323e59be8ef"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492824244"
+                    "datestamp": "1492871042"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-22 03:15:44"
+            "time": "2017-04-22 23:05:01"
         },
         {
             "name": "drupal/guardr_core",
@@ -1559,7 +1559,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr_core",
-                "reference": "d299da35b001b69e0b96a9ade3422bbe6bb705f5"
+                "reference": "bc7ff2689ef13c956af1efec7d5b1a926c8389e3"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1571,7 +1571,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1472481839"
+                    "datestamp": "1492904643"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1582,6 +1582,10 @@
                 {
                     "name": "bdone",
                     "homepage": "https://www.drupal.org/user/687670"
+                },
+                {
+                    "name": "catapipper",
+                    "homepage": "https://www.drupal.org/user/2837663"
                 },
                 {
                     "name": "deekayen",
@@ -1613,7 +1617,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr_core"
             },
-            "time": "2016-08-29 14:38:59"
+            "time": "2017-04-23 00:05:37"
         },
         {
             "name": "drupal/login_history",
