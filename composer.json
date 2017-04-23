@@ -43,13 +43,14 @@
         "drupal/guardr_core": "1.x-dev",
         "drupal/login_history": "1.0.0",
         "drupal/login_security": "1.2.0",
+        "drupal/mass_pwreset": "1.0.0-alpha4",
         "drupal/password_policy": "3.0.0-alpha3",
         "drupal/r4032login": "1.x-dev",
-        "drupal/seckit": "1.0-alpha2",
+        "drupal/seckit": "1.0.0-alpha2",
         "drupal/security_review": "1.x-dev",
-        "drupal/session_limit": "1.0-beta1",
-        "drupal/token": "1.0-rc1",
-        "drupal/username_enumeration_prevention": "1.0-beta1",
+        "drupal/session_limit": "1.0.0-beta1",
+        "drupal/token": "1.0.0-rc1",
+        "drupal/username_enumeration_prevention": "1.0.0-beta1",
         "drush/drush": "~8.0"
     }
 }
