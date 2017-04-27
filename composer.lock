@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbfd448951f86586c4abb0c70ff51c1e",
+    "content-hash": "e4cb06bcb3714a7bd5cb55642cdcbc9b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1486,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr",
-                "reference": "cd59eacfafbc6f65cf9caee1bf7ea8eaca22bfe2"
+                "reference": "37109ac0c60fcb340326ab45932c988edcb935a3"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1498,7 +1498,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492981742"
+                    "datestamp": "1492982342"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1551,7 +1551,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr"
             },
-            "time": "2017-04-23 21:16:41"
+            "time": "2017-04-23 21:32:26"
         },
         {
             "name": "drupal/guardr_core",
@@ -1559,7 +1559,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/guardr_core",
-                "reference": "dd7b560e28afe4c9c67daadc28b3e53e536b4801"
+                "reference": "62dc9b481f548ba5e326143baceb6950a50dc33b"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1571,7 +1571,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1492953243"
+                    "datestamp": "1492954143"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1617,7 +1617,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/guardr_core"
             },
-            "time": "2017-04-23 13:28:20"
+            "time": "2017-04-23 21:31:45"
         },
         {
             "name": "drupal/login_history",
@@ -2084,70 +2084,6 @@
             "homepage": "https://www.drupal.org/project/session_limit",
             "support": {
                 "source": "http://cgit.drupalcode.org/session_limit"
-            }
-        },
-        {
-            "name": "drupal/token",
-            "version": "1.0.0-rc1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/token",
-                "reference": "8.x-1.0-rc1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-rc1.zip",
-                "reference": null,
-                "shasum": "204b2f18a3d770589d66656aa83121d2156d0a31"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1483290542"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "Dave Reid",
-                    "homepage": "https://www.drupal.org/user/53892"
-                },
-                {
-                    "name": "eaton",
-                    "homepage": "https://www.drupal.org/user/16496"
-                },
-                {
-                    "name": "fago",
-                    "homepage": "https://www.drupal.org/user/16747"
-                },
-                {
-                    "name": "greggles",
-                    "homepage": "https://www.drupal.org/user/36762"
-                },
-                {
-                    "name": "mikeryan",
-                    "homepage": "https://www.drupal.org/user/4420"
-                }
-            ],
-            "description": "Provides a user interface for the Token API and some missing core tokens.",
-            "homepage": "https://www.drupal.org/project/token",
-            "support": {
-                "source": "http://cgit.drupalcode.org/token",
-                "issues": "https://www.drupal.org/project/issues/token"
             }
         },
         {
