@@ -4,13 +4,13 @@ Drupal distribution with common modules for enhancing web application security.
 
 ## Use Guardr as the base for a new Drupal project
 
-Download [Guardr 7.x-2.36(http://ftp.drupal.org/files/projects/guardr-7.x-2.36-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
+Download [Guardr 7.x-2.37(http://ftp.drupal.org/files/projects/guardr-7.x-2.37-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
 
 Install Drupal using the Guardr codebase as you would normally, but make sure to select the Guardr profile during the installation process.
 
 ## Building a Guardr instance for development and testing
 
-Download the [Guardr profile](http://ftp.drupal.org/files/projects/guardr-7.x-1.x-dev.tar.gz).
+Download the [Guardr profile](http://ftp.drupal.org/files/projects/guardr-7.x-2.x-dev.tar.gz).
 
 **Build the instance:**
 
@@ -30,7 +30,7 @@ $ cd <path-to-make-results>
 $ drush si --db-url=mysql://[db_user]:[db_pass]@localhost/[db_name] --account-name=admin --account-pass=[account-password] --account-mail=admin@example.com --site-name=Guardr --site-mail=admin@example.com guardr
 </code>
 
-**Or if you have drush 5 you can use drush qd to test Guardr:**
+**Or if you have Drush >= version 5 you can use drush qd to test Guardr:**
 
 <code>
 $ cd <path-to-make-results>

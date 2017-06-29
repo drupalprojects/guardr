@@ -11,16 +11,16 @@ projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.11
+projects[ctools][version] = 1.12
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.3
 
 projects[duo][subdir] = contrib
-projects[duo][version] = 1.10
+projects[duo][version] = 1.11
 
 projects[ejectorseat][subdir] = contrib
 projects[ejectorseat][version] = 1.0
@@ -69,16 +69,16 @@ projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
 
 projects[memcache][subdir] = contrib
-projects[memcache][version] = 1.5
+projects[memcache][version] = 1.6
 
 projects[no_autocomplete][subdir] = contrib
-projects[no_autocomplete][version] = 1.1
+projects[no_autocomplete][version] = 1.2
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.6
+projects[paranoia][version] = 1.7
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.12
+projects[password_policy][version] = 1.14
 
 projects[permission_watchdog][subdir] = contrib
 projects[permission_watchdog][version] = 1.1
@@ -134,7 +134,7 @@ projects[tfa_basic][subdir] = contrib
 projects[tfa_basic][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 
 projects[user_registrationpassword][subdir] = contrib
 projects[user_registrationpassword][version] = 1.4
