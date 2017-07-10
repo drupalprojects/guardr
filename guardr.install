@@ -32,7 +32,7 @@ function guardr_install() {
   ->fields(array(
     'name' => 'Guardr default',
     'description' => 'The default password policy implementation included with the Guardr distribution.',
-    'policy' => serialize($policy),
+    'constraints' => serialize($policy),
     'enabled' => 1,
     'expiration' => '90',
     'warning' => '7,14',
@@ -74,7 +74,7 @@ function guardr_install() {
   ->fields(array(
     'name' => 'Guardr administrator',
     'description' => 'A tougher password policy for administrator roles.',
-    'policy' => serialize($administrators),
+    'constraints' => serialize($administrators),
     'enabled' => 1,
     'expiration' => '60',
     'warning' => '7,14',
@@ -98,7 +98,7 @@ function guardr_install() {
   ->fields(array(
     'name' => 'Guardr passphrase',
     'description' => 'An alternate Guardr password policy with fewer complexity restrictions, but a longer character length.',
-    'policy' => serialize($passphrase),
+    'constraints' => serialize($passphrase),
     'enabled' => 0,
     'created' => REQUEST_TIME,
   ))
