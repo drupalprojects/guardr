@@ -26,6 +26,9 @@
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
+            "drupal/password_policy": {
+                "'Field field_last_password_reset is unknown' while importing configuration on site without password_policy activated": "https://www.drupal.org/files/issues/password-policy-config-import-field-error-2771129-49-D8.patch"
+            },
             "drupal/username_enumeration_prevention": {
                 "Resolves hook_requirements issues": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
             }
@@ -45,7 +48,7 @@
         "drupal/login_history": "1.0.0",
         "drupal/login_security": "1.3.0",
         "drupal/mass_pwreset": "1.0.0-alpha4",
-        "drupal/password_policy": "3.0.0-alpha3",
+        "drupal/password_policy": "3.x-dev",
         "drupal/r4032login": "1.x-dev",
         "drupal/seckit": "1.0.0-alpha2",
         "drupal/security_review": "1.x-dev",
