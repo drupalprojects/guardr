@@ -5,7 +5,7 @@ core = 7.x
 ; Modules
 ; -------
 projects[autologout][subdir] = contrib
-projects[autologout][version] = 4.4
+projects[autologout][version] = 4.5
 
 projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
