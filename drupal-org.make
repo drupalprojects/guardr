@@ -11,7 +11,7 @@ projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.12
+projects[ctools][version] = 1.14
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.3
@@ -57,7 +57,7 @@ projects[libraries][version] = 2.3
 projects[libraries][patch][] = http://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch
 
 projects[login_history][subdir] = contrib
-projects[login_history][version] = 1.0
+projects[login_history][version] = 1.1
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.9
@@ -72,13 +72,13 @@ projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.6
 
 projects[no_autocomplete][subdir] = contrib
-projects[no_autocomplete][version] = 1.2
+projects[no_autocomplete][version] = 1.3
 
 projects[paranoia][subdir] = contrib
 projects[paranoia][version] = 1.7
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.14
+projects[password_policy][version] = 1.15
 
 projects[permission_watchdog][subdir] = contrib
 projects[permission_watchdog][version] = 1.1
@@ -137,7 +137,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.7
 
 projects[user_registrationpassword][subdir] = contrib
-projects[user_registrationpassword][version] = 1.4
+projects[user_registrationpassword][version] = 1.5
 
 projects[username_enumeration_prevention][subdir] = contrib
 projects[username_enumeration_prevention][version] = 1.2
