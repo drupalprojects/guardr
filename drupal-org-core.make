@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.58
+projects[drupal][version] = 7.59
 
 ; Patch default.settings.php to support MySQL over SSL connections
 ; http://drupal.org/node/1824946
