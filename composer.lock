@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0908e15fe325053bb6dc2ec5ea18d66",
+    "content-hash": "d86c3314e8960ca63738d2ad0ca30378",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2589,11 +2589,17 @@
         },
         {
             "name": "drupal/password_policy",
-            "version": "dev-3.x",
+            "version": "3.0.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/password_policy",
-                "reference": "ef81a55ad49d7d4e18f493fad2284923d28bfe70"
+                "reference": "8.x-3.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/password_policy-8.x-3.0-alpha4.zip",
+                "reference": "8.x-3.0-alpha4",
+                "shasum": "79997599fbce390e79eda0aba10f403324c48b99"
             },
             "require": {
                 "drupal/core": "*",
@@ -2605,11 +2611,11 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha4+4-dev",
-                    "datestamp": "1519657384",
+                    "version": "8.x-3.0-alpha4",
+                    "datestamp": "1506649448",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 },
                 "patches_applied": {
@@ -2646,8 +2652,7 @@
             "homepage": "https://www.drupal.org/project/password_policy",
             "support": {
                 "source": "http://cgit.drupalcode.org/password_policy"
-            },
-            "time": "2018-03-08T21:48:13+00:00"
+            }
         },
         {
             "name": "drupal/r4032login",
@@ -8303,7 +8308,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/password_policy": 20,
         "drupal/r4032login": 20,
         "drupal/security_review": 20
     },
