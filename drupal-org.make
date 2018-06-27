@@ -66,7 +66,7 @@ projects[logging_alerts][subdir] = contrib
 projects[logging_alerts][version] = 2.2
 
 projects[mass_pwreset][subdir] = contrib
-projects[mass_pwreset][version] = 1.0
+projects[mass_pwreset][version] = 1.1
 
 projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.6
