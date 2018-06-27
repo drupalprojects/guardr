@@ -131,7 +131,7 @@ projects[tfa][subdir] = contrib
 projects[tfa][version] = 2.0
 
 projects[tfa_basic][subdir] = contrib
-projects[tfa_basic][version] = 1.0
+projects[tfa_basic][version] = 1.1
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.7
