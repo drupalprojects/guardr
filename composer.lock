@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0d8b2e3d5e719d1543865fa7b21ad9c",
+    "content-hash": "bddedecb53dd4b506ef7a314364719af",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2258,17 +2258,17 @@
         },
         {
             "name": "drupal/mass_pwreset",
-            "version": "1.0.0-alpha4",
+            "version": "1.0.0-alpha5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/mass_pwreset",
-                "reference": "8.x-1.0-alpha4"
+                "reference": "8.x-1.0-alpha5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mass_pwreset-8.x-1.0-alpha4.zip",
-                "reference": "8.x-1.0-alpha4",
-                "shasum": "ae3f5ed58dcdf26b63519a6fc877ebd2e2ddf40b"
+                "url": "https://ftp.drupal.org/files/projects/mass_pwreset-8.x-1.0-alpha5.zip",
+                "reference": "8.x-1.0-alpha5",
+                "shasum": "1ba7e07e260d3c9adf2306341212ebc86cf7c945"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2279,8 +2279,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha4",
-                    "datestamp": "1487968083",
+                    "version": "8.x-1.0-alpha5",
+                    "datestamp": "1530150527",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
